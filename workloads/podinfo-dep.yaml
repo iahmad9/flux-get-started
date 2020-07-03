@@ -55,10 +55,10 @@ spec:
           - --level=info
           - --random-delay=false
           - --random-error=false
-	  - --ui-message="Greetings from SPANTIK"
+	        - --ui-message="Greetings from SPANTIK"
         env:
           - name: PODINFO_UI_COLOR
-            value: "#34577c"
+            value: "#34577d"
         livenessProbe:
           httpGet:
             path: /healthz
